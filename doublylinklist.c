@@ -189,13 +189,13 @@ int main()
 
     while (1)
     {
-        printf("1. Insert at the end\n");
-        printf("2. Delete from the end\n");
-        printf("3. Insert at the beginning\n");
-        printf("4. Delete from the beginning\n");
-        printf("5. Insert in the middle\n");
-        printf("6. Delete from the middle\n");
-        printf("7. Display the list\n");
+        printf("1. Insertend\n");
+        printf("2. Deleteend\n");
+        printf("3. FirstInsert\n");
+        printf("4. FirstDelete\n");
+        printf("5. MidInsert\n");
+        printf("6. MidDelete\n");
+        printf("7. Display\n");
         printf("8. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
